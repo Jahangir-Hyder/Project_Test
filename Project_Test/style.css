@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FF5B51;
+  color: white;
+  padding: 60px 40px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.left h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.left h1 span {
+  color: white;
+}
+
+.left p {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: white;
+  color: #FF5B51;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-frame {
+  position: relative;
+  width: 270px;
+  height: auto;
+}
+
+.phone-image {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.badge {
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.top-left {
+  top: 10px;
+  left: -30px;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: -40px;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.features p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-size: 0.95em;
+}
+.connection-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background: #fdfdfd;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phones {
+  max-width: 350px;
+  width: 100%;
+}
+
+.text-features {
+  flex: 1;
+  min-width: 280px;
+  padding: 20px 40px;
+}
+
+.text-features h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feature {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  font-size: 0.95em;
+}
+
+.install-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.install-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.step {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 14px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.step-number {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FF5B51;
+  margin-bottom: 10px;
+}
+
+.custom-hero {
+  background-color: #ff4d4d;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.custom-hero-text {
+  max-width: 500px;
+  margin-right: 30px;
+}
+
+.custom-hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.custom-hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.custom-hero-text button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-hero-image {
+  max-width: 300px;
+  text-align: center;
+}
+
+.custom-hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.custom-thank-you-text {
+  margin-top: 10px;
+}
+
+.custom-testimonials {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.custom-testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.custom-testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.custom-testimonial {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.custom-testimonial p:first-child {
+  color: #f5b301;
+  font-size: 18px;
+}
+
+.custom-testimonial span {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.custom-see-more {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Download Section */
+.custom-download-section {
+  background-color: #ff4d4d;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.custom-download-text {
+  max-width: 550px;
+  padding: 20px;
+}
+
+.custom-download-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.custom-download-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.custom-download-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.custom-store-button img {
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+}
+
+/* Phone Images */
+.custom-download-images {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.custom-phone-image {
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.phone-left {
+  transform: translateY(15px);
+}
+
+.phone-right {
+  transform: translateY(-15px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-download-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .custom-download-images {
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .custom-phone-image {
+    height: 140px;
+  }
+
+  .custom-download-buttons {
+    justify-content: center;
+  }
+}
